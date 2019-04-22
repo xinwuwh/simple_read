@@ -6,7 +6,7 @@ class Header extends Component{
     render(){
         return (
             <HeaderWrapper>
-                <Logo>Easy Read</Logo>
+                <Logo>Simple Reading</Logo>
                 <Nav> 
                     <NavItem className='left active'>Home</NavItem>
                     <NavItem className='left'>Download APP</NavItem>
