@@ -2,8 +2,35 @@ import React from 'react';
 import {connect} from 'react-redux';
 import { CSSTransition } from 'react-transition-group';
 import { actionCreators } from './store';
-import {HeaderWrapper,Logo,Nav, NavItem,NavSearch,Addition,Button,SearchWrapper} from './style';
+import {HeaderWrapper,Logo,Nav, NavItem,NavSearch,Addition,Button,SearchWrapper, 
+    SearchInfo,SearchInfoTitle,SearchInfoSwitch,SearchInfoItem,SearchInfoList} from './style';
 import { GlobalStyle } from '../../statics/iconfont/iconfont';
+
+const getListArea=(show)=>{
+    if (show){
+        return(
+            <SearchInfo>
+                <SearchInfoTitle>
+                    Hot Searches
+                    <SearchInfoSwitch>Switch Others</SearchInfoSwitch>
+                </SearchInfoTitle>
+                <SearchInfoList>
+                    <SearchInfoItem>Education</SearchInfoItem>
+                    <SearchInfoItem>Jobs</SearchInfoItem>
+                    <SearchInfoItem>Jobs</SearchInfoItem>
+                    <SearchInfoItem>Jobs</SearchInfoItem>
+                    <SearchInfoItem>Jobs</SearchInfoItem>
+                    <SearchInfoItem>Jobs</SearchInfoItem>
+                    <SearchInfoItem>Jobs</SearchInfoItem>
+                </SearchInfoList>
+
+            </SearchInfo>
+        )
+
+    }else {
+        return null;
+    }
+}
 
 const Header= (props)=>{
     return (
@@ -32,6 +59,7 @@ const Header= (props)=>{
                     </CSSTransition>
                     <i className={props.focused ? 'focused iconfont' : 'iconfont'}>
                     &#xe633;</i>
+                    {getListArea(props.focused)}
                     
                 </SearchWrapper>
                 
