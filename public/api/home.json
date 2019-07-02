@@ -1,0 +1,48 @@
+{
+	"success": true,
+	"data": {
+		"topicList": [{
+			"id": 1,
+			"title": "Social Focus",
+			"imgUrl": "//upload.jianshu.io/collections/images/261938/man-hands-reading-boy-large.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+		}, {
+			"id": 2,
+			"title": "Reading",
+			"imgUrl": "//upload.jianshu.io/collections/images/21/20120316041115481.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+		}],
+		"articleList": [{
+			"id": 1,
+			"title": "Could climate change worsen global conflict?",
+			"desc": "A Syrian boy sits in a refugee camp after civil war destroyed towns and rural areas throughout his country. Some scientists believe climate stresses could have played a role in triggering or worsening the Syrian conflict....",
+			"imgUrl": "https://www.sciencenewsforstudents.org/sites/default/files/scald-image/860_CCC10_conflict.png"
+		}, {
+			"id": 2,
+			"title": "Could climate change worsen global conflict?",
+			"desc": "A Syrian boy sits in a refugee camp after civil war destroyed towns and rural areas throughout his country. Some scientists believe climate stresses could have played a role in triggering or worsening the Syrian conflict....",
+			"imgUrl": "https://www.sciencenewsforstudents.org/sites/default/files/scald-image/860_CCC10_conflict.png"
+		},{
+			"id": 3,
+			"title": "Could climate change worsen global conflict?",
+			"desc": "A Syrian boy sits in a refugee camp after civil war destroyed towns and rural areas throughout his country. Some scientists believe climate stresses could have played a role in triggering or worsening the Syrian conflict....",
+			"imgUrl": "https://www.sciencenewsforstudents.org/sites/default/files/scald-image/860_CCC10_conflict.png"
+		},{
+			"id": 4,
+			"title": "Could climate change worsen global conflict?",
+			"desc": "A Syrian boy sits in a refugee camp after civil war destroyed towns and rural areas throughout his country. Some scientists believe climate stresses could have played a role in triggering or worsening the Syrian conflict....",
+			"imgUrl": "https://www.sciencenewsforstudents.org/sites/default/files/scald-image/860_CCC10_conflict.png"
+		}],
+		"recommendList": [{
+			"id": 1,
+			"imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png"
+		}, {
+			"id": 2,
+			"imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+		},{
+			"id": 3,
+			"imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+		},{
+			"id": 4,
+			"imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+		}]
+	}
+}

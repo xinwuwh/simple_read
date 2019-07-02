@@ -92,3 +92,18 @@ export const WriterWrapper = styled.div`
     line-height: 300px;
     text-aglign: center;
 `;
+export const WriterItem = styled.div`
+    overflow: hidden;
+    background-size: contain;
+    .ava {
+        float: left;
+        width: 46px;
+        height: 46px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+        }  
+    .name {
+        font-size: 14px;
+    }
+`;
+
