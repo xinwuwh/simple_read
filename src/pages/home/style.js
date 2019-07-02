@@ -20,3 +20,13 @@ export const HomeRight = styled.div`
     width: 240px;
     float: right;
 `;
+
+export const TopicWrapper = styled.div`
+    padding: 20px 0 10px 0;
+    
+`;
+
+export const TopicItem = styled.div`
+    padding: 20px 0 10px 0;
+    
+`;
