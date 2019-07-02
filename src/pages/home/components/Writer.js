@@ -10,8 +10,10 @@ class Writer extends Component {
                     return (
                         <WriterItem key={item.get('id')}>
                            
-                            <img alt='' className='ava' src={item.get('imgUrl')}/>
-                            <p className='name'>{item.get('name')}</p>
+                           
+                           <img alt='' className='ava' src={item.get('imgUrl')}/>
+                           {item.get('name')}
+                            
                         
                         </WriterItem>
                     )

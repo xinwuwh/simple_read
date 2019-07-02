@@ -24,6 +24,13 @@ class Home extends Component {
         )
     }
     componentDidMount(){
+        this.props.changeHomeData();
+        
+
+    }
+}
+const mapDispatch=(dispatch)=>({
+    changeHomeData(action){
         axios.get('/api/home.json').then((res)=>{
             const result= res.data.data;
             const action={
@@ -32,14 +39,9 @@ class Home extends Component {
                 articleList: result.articleList,
                 recommendList: result.recommendList
             }
-            this.props.changeHomeData(action);
+            dispatch(action);
         })
-
-    }
-}
-const mapDispatch=(dispatch)=>({
-    changeHomeData(action){
-        dispatch(action);
+        
     }
 
 });

@@ -81,6 +81,7 @@ export const RecommendWrapper = styled.div`
 export const RecommendItem = styled.div`
     width: 280px; 
     height: 50px;
+    margin-bottom: 10px;
     background: url(${(props)=> props.imgUrl});
     background-size: contain;
 `;
@@ -89,14 +90,12 @@ export const WriterWrapper = styled.div`
     height: 300px;
     border: 1px solid #dcdcdc;
     border-radius: 3px;
-    line-height: 300px;
     text-aglign: center;
 `;
 export const WriterItem = styled.div`
-    overflow: hidden;
-    background-size: contain;
+    
+    margin-bottom: 10px;
     .ava {
-        float: left;
         width: 46px;
         height: 46px;
         border: 1px solid #ddd;
