@@ -9,8 +9,6 @@ class Writer extends Component {
                 {this.props.list.map((item)=>{
                     return (
                         <WriterItem key={item.get('id')}>
-                           
-                           
                            <img alt='' className='ava' src={item.get('imgUrl')}/>
                            {item.get('name')}
                             

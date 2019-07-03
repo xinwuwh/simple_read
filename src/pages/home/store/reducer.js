@@ -5,20 +5,7 @@ const defaultState= fromJS({
 
     articleList:[],
 
-    recommendList:[{
-        id: 1,
-        title: 'Membership',
-        imgUrl: 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4228765987,991991179&fm=26&gp=0.jpg'
-    },{
-        id: 2,
-        imgUrl: 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4228765987,991991179&fm=26&gp=0.jpg'
-    },{
-        id: 3,
-        imgUrl: 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4228765987,991991179&fm=26&gp=0.jpg'
-    },{
-        id: 4,
-        imgUrl: 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4228765987,991991179&fm=26&gp=0.jpg'
-    }],
+    recommendList:[],
 
     writerList:[{
         id: 1,
@@ -40,6 +27,8 @@ export default (state= defaultState, action) => {
             return state.merge({
                 topicList: fromJS(action.topicList),
                 articleList: fromJS(action.articleList),
+                recommendList: fromJS(action.recommendList),
+                
 
             })
         default:
